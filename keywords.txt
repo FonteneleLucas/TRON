@@ -1,0 +1,17 @@
+Tron    KEYWORD1
+motores KEYWORD2
+inicializaMotores   KEYWORD3
+inicializaSensores  KEYWORD4
+teste   KEYWORD5
+frente  KEYWORD6
+tras    KEYWORD7
+parar   KEYWORD8
+curvaEsq    KEYWORD9
+curvaDir    KEYWORD10
+curvaLeveEsq    KEYWORD11
+curvaLeveDir    KEYWORD12
+andar   KEYWORD13
+sensores    KEYWORD14
+inicializaSensores KEYWORD15
+exibirSensores  KEYWORD16
+lerSensor   KEYWORD17
