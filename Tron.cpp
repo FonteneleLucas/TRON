@@ -124,8 +124,10 @@ void Tron::curvaLeveDir(int velocidade, int ajuste) {
  * @param numero
  * @param arraySensors (OS SENSORES DEVEM SER COLOCADOS NO ARRAY EM ORDEM, É INDICADO QUE SEJA NO PADRAO: ESQUERDA->DIREITA)
  */
+
+int num = 0;
 void Tron::sensores(int numero, int arraySensors[]) {
-    numSensors = numero;
+    num = numero;
     for (int i = 0; i < numero; i++) {
         sensors[i] = arraySensors[i];
     }
@@ -135,7 +137,7 @@ void Tron::sensores(int numero, int arraySensors[]) {
  * Deve ser chamado no SETUP
  */
 void Tron::inicializaSensores() {
-    for (int i = 0; i < numSensors; i++) {
+    for (int i = 0; i < num; i++) {
 //        pinMode(sensors[i], INPUT);
     }
 }
@@ -145,7 +147,7 @@ void Tron::inicializaSensores() {
  */
 void Tron::exibirSensores() {
     // printf("| ");
-    for (int i = 0; i < numSensors; i++) {
+    for (int i = 0; i < num; i++) {
         //        Serial.print(digitalRead(sensors[i]));
         // printf("S%d: %d | ", i, sensors[i]);
     }
